@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    color:  yellow;
+    font-size: 40px;
+    text-align: center;
+}
+
+input {
+    height: 35px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    background-color: #333;
+    color: #eee;
+    outline: none;
+    width:  79%;
+}
+
+button {
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    background-color: yellow;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 90px;
+}
+
+button:hover {
+    background-color: rgb(246, 246, 113);    
+}
+
+button:active
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: yellow;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    color: #000000;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span {
+    cursor: pointer;    
+}
+
+span:hover {
+    background-color: #000000;
+    border-radius: 5px;
+
+}
